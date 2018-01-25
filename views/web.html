@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>JD Ventures - Web Case Study</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/jdventures.min.css" rel="stylesheet"> </head>
+<script src="../js/typewriter.min.js"></script>
+
+<body id="Terminal_Window" onload="startTerminal(5)">
+    <div class="terminal"> <span class="floatButtons"> <i class="fa fa-times-circle text-danger fa-lg but fa_with_bg" aria-hidden="true"></i><i class="fa fa-minus-circle text-warning fa-lg but fa_with_bg" aria-hidden="true"></i> <i class="fa fa-plus-circle text-success fa-lg but fa_with_bg" aria-hidden="true"></i> </span> <span class="text" id="terminal-text">Project: Web</span> </div>
+    <!-- Navigation --><a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"> <a class="js-scroll-trigger" href="../index.html">JD Ventures</a> </li>
+            <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#About">Web Projects</a> </li>
+            <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="../views/mobile.html">Mobile Applications</a> </li>
+            <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="../views/enterprise.html">Enterprise</a> </li>
+            <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="../views/vr.html">VR</a> </li>
+            <li class="sidebar-nav-item"> <a class="js-scroll-trigger" href="#Contact_Us">Contact</a> </li>
+        </ul>
+    </nav>
+    <!-- Header -->
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1 w"><span id="terminal-input"></span><span class="blink_me">|</span></h1>
+            <h3 class="mb-5 w">
+          <em>Dynamic Page For An Active Fitness Center</em>
+        </h3> <a class="btn btn-primary btn-xl js-scroll-trigger" href="#About">Find Out More</a> </div>
+        <div class="overlay"></div>
+    </header>
+    <!-- About -->
+    <section class="content-section bg-light" id="About">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2> Peak Condition Cyprus Website</h2>
+                    <p class="lead mb-5">Peak Condition Cyprus is a Limassol based fitness center, who seeked to build an online presence. The website runs on Wordpress with a custom theme, extra security installations to prevent attacks as well as optimizations for Google PageRank. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                    <h4>
+                    <strong>Screenshots</strong>
+            </h4> <img id="pic1" alt="Peak Condition Home" class="img-fluid bordererd modal-image" src="../img/peak.png" onclick='showModal(this.id)'>
+                    <br><img id="pic2" class="img-fluid bordererd modal-image modal-image" alt="Peak Condition Page" src="../img/peak2.png" onclick='showModal(this.id)'></div>
+                <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                    <h4>
+                    <strong>Core Features</strong>
+
+            </h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">Custom Wordpress Theme</li>
+                        <li class="list-group-item">Security & Attack Protection</li>
+                        <li class="list-group-item">Speed Optimizations</li>
+                        <li class="list-group-item">SEO Optimizations</li>
+                        <li class="list-group-item">SSL & Hosting</li>
+                    </ul>
+                    <h4 style="padding-top:25px;">
+                    <strong>Preview</strong>  </h4>
+                    <p class=""><a href="www.peakconditioncy.com">www.peakconditioncy.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action -->
+    <section id="Contact_Us" class="content-section bg-primary text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">Get In Touch Now</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                    <h4>
+                    <strong>Contact Us</strong>
+            </h4>
+                    <p class="text-faded mb-0 w">Tel: <a href="tel:+35725850999">+357 25 850 999</a></p>
+                    <p class="text-faded mb-0 w">Mob: <a href="tel:+35797888708">+357 97 888 708</a></p>
+                    <p class="text-faded mb-0 w">Email: <a href="mailto:general@julosdevelopment.com">general@julosdevelopment.com</a></p>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+                    <h4>
+                    <strong>Visit Us</strong>
+            </h4>
+                    <p class="text-faded mb-0">Nicoloau Pentadromos Center</p>
+                    <p class="text-faded mb-0">Thesalonikis Str.</p>
+                    <p class="text-faded mb-0">3307 Limassol</p>
+                    <p class="text-faded mb-0">Cyprus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map -->
+    <section class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.953708522226!2d33.04068181578018!3d34.68111778043937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e733057c59192b%3A0x3acc720740510a60!2sNicolaou+Pentadromos+Center%2C+Gladstonos%2C+Limassol%2C+Cyprus!5e0!3m2!1sen!2s!4v1516624605334"></iframe>
+        <br/> <small>
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.953708522226!2d33.04068181578018!3d34.68111778043937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e733057c59192b%3A0x3acc720740510a60!2sNicolaou+Pentadromos+Center%2C+Gladstonos%2C+Limassol%2C+Cyprus!5e0!3m2!1sen!2s!4v1516624605334""></a>
+      </small> </section>
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item"> <a class="social-link rounded-circle text-white mr-3" href="../views/login.html">
+              <i class="icon-user"></i>
+            </a> </li>
+                <li class="list-inline-item"> <a class="social-link rounded-circle text-white mr-3" href="../views/design.html">
+              <i class="icon-pencil"></i>
+            </a> </li>
+                <li class="list-inline-item"> <a class="social-link rounded-circle text-white" href="https://github.com/julosdevelopment">
+              <i class="icon-social-github"></i>
+            </a> </li>
+            </ul>
+            <p class="text-muted small mb-0">Copyright &copy; JD Ventures 2018</p>
+        </div>
+    </footer>
+    <section id="modal-section">
+        <!-- The Modal -->
+        <div id="modal" class="modal">
+            <!-- The Close Button --><span class="close">&times;</span>
+            <!-- Modal Content (The Image) --><img class="modal-content" id="img01">
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+    </section>
+    <!-- Scroll to Top Button--><a class="scroll-to-top rounded js-scroll-trigger" href="#Terminal_Window">
+      <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- The Modal -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="../js/jdventures.min.js"></script>
+    <script src="../js/modal.min.js"></script>
+</body>
+
+</html>
