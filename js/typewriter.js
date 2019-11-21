@@ -10,7 +10,7 @@ function startTerminal(r) {
         txt = "Welcome ..."
         typeWriter()
     } else if (run == 2) {
-        txt = "JD Ventures"
+        txt = "Codeero"
         typeWriter()
     } else if (run == 5) {
         txt = "Case Study: Web"
